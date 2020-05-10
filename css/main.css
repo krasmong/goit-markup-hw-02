@@ -1,0 +1,42 @@
+/*  цвет основного текста #757575  */
+/*  цвет заголовков #212121  */
+/*  цвет акцента #2196F3   */
+/*  белый цвет #FFFFFF    */
+/*  цвета в футере rgba(255, 255, 255, 0.6)
+                   rgba(255, 255, 255, 0.4) */
+
+/* Кнопка */
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-title {
+  color: var(--primary-bg-color);
+}
+
+/* Секции */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Преимущества */
+.feature .title {
+  color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+.work .title {
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team .title {
+  color: var(--title-text-color);
+}
+
+/* Постоянные клиенты */

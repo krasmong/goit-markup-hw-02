@@ -1,0 +1,74 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* Логотип */
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #212121;
+}
+
+.logo-studio.footer {
+  color: #ffffff;
+}
+
+/* Навигация сайта */
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.cont-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.cont-nav .link:hover,
+.cont-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Футер */
+footer {
+  background-color: var(--footer-bg-color);
+}
+
+.address .street {
+  color: #ffffff;
+}
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.join-in {
+  color: #ffffff;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
