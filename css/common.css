@@ -19,9 +19,26 @@ a {
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* Логотип */
+.logo-header {
+  font-family: Raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+}
+
 .logo-web {
   color: #2196f3;
 }
@@ -41,10 +58,20 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .cont-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -59,6 +86,12 @@ footer {
   background-color: var(--footer-bg-color);
 }
 
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .address .street {
   color: #ffffff;
 }
@@ -68,8 +101,17 @@ footer {
 
 .join-in {
   color: #ffffff;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .copyright {
   color: rgba(255, 255, 255, 0.4);
+
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
